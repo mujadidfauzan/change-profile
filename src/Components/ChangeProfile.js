@@ -1,0 +1,23 @@
+const ChangeProfile = () => {
+  return (
+    <>
+      <div className="p-2 fs-2 card-header text-white fw-semibold" style={{ backgroundColor: '#002984', height: ' 56px' }}>
+        Ganti Foto Profil
+      </div>
+      <div class="custom-card-2 mx-auto mt-2"></div>
+      <div class="d-flex flex-column justify-content-center mt-3 text-white fw-bold">
+        <div class="card mt-4 mx-2 d-flex align-items-center justify-content-center shadow-sm" style={{ height: '40px', backgroundColor: '#006c84' }}>
+          <span class="text-center">Ambil Dari Kamera</span>
+        </div>
+        <div class="card m-2 d-flex align-items-center justify-content-center shadow-sm" style={{ height: '40px', backgroundColor: '#006c84' }}>
+          <span class="text-center">Ambil Dari Gallery </span>
+        </div>
+        <div class=" mt-5 d-flex align-items-center justify-content-center shadow-sm text-black" style={{ height: '40px', backgroundColor: '#E0E0E0' }}>
+          <span class="text-center">Simpan</span>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default ChangeProfile;
