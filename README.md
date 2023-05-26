@@ -1,74 +1,89 @@
-# change-profile
+## Change Profile Website
 
-=======
+This is a simple website built using React.js and Bootstrap for changing user profile pictures. It allows users to upload an image from their device, crop the image using a draggable selection tool, and save the cropped image as their new profile picture.
 
-# Getting Started with Create React App
+### Tech Stack
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The website is built using the following technologies:
 
-## Available Scripts
+- React.js: A JavaScript library for building user interfaces.
+- Bootstrap: A popular CSS framework for building responsive and mobile-first websites.
 
-In the project directory, you can run:
+### Getting Started
 
-### `npm start`
+To run the Change Profile website locally, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   ```shell
+   git clone <repository-url>
+   ```
 
-### `npm test`
+2. Navigate to the project directory:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```shell
+   cd change-profile-website
+   ```
 
-### `npm run build`
+3. Install the dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```shell
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Start the development server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```shell
+   npm start
+   ```
 
-### `npm run eject`
+   This will start the website on `http://localhost:3000` and automatically open it in your default browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Once the website is running, follow these steps to change the profile picture:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Click on the "Choose File" button to select an image from your device.
+2. The selected image will be displayed.
+3. Drag and resize the selection tool to crop the image as desired.
+4. Click the "Save" button to save the cropped image as your new profile picture.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Folder Structure
 
-## Learn More
+The folder structure of the project is as follows:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+change-profile-website/
+  ├── public/
+  │   ├── index.html
+  │   └── ...
+  ├── src/
+  │   ├── components/
+  │   │   ├── Avatar.js
+  │   │   ├── CropDialog.js
+  │   │   ├── ProfileImage.js
+  │   │   └── ...
+  │   ├── App.js
+  │   ├── index.js
+  │   └── ...
+  ├── package.json
+  ├── README.md
+  └── ...
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- The `public` folder contains the HTML template and other static assets.
+- The `src` folder contains the main source code of the website.
+- The `components` folder contains reusable components used in the website.
+- The `App.js` file is the entry point of the application.
+- The `index.js` file is responsible for rendering the React app.
+- The `package.json` file contains the project's dependencies and scripts.
 
-### Code Splitting
+Feel free to explore the code and modify it according to your needs.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Credits
 
-### Analyzing the Bundle Size
+The Change Profile website is created by [Your Name] and is available under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+If you have any questions or suggestions, please feel free to contact me.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy coding!
