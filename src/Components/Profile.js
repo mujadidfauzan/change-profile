@@ -37,7 +37,6 @@ const Profile = () => {
               </defs>
             </svg>
           </Link>
-          <Link to="/changeprofile">PERGI</Link>
         </div>
 
         <div className="d-flex flex-column">

@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const ChangeProfile = () => {
   return (
     <>
@@ -9,9 +11,11 @@ const ChangeProfile = () => {
         <div class="card mt-4 mx-2 d-flex align-items-center justify-content-center shadow-sm" style={{ height: '40px', backgroundColor: '#006c84' }}>
           <span class="text-center">Ambil Dari Kamera</span>
         </div>
-        <div class="card m-2 d-flex align-items-center justify-content-center shadow-sm" style={{ height: '40px', backgroundColor: '#006c84' }}>
-          <span class="text-center">Ambil Dari Gallery </span>
-        </div>
+        <Link to="/galeri" style={{ textDecoration: 'none' }}>
+          <div class="card m-2 d-flex align-items-center justify-content-center shadow-sm" style={{ height: '40px', backgroundColor: '#006c84' }}>
+            <span class="text-center text-white">Ambil Dari Gallery </span>
+          </div>
+        </Link>
         <div class=" mt-5 d-flex align-items-center justify-content-center shadow-sm text-black" style={{ height: '40px', backgroundColor: '#E0E0E0' }}>
           <span class="text-center">Simpan</span>
         </div>
