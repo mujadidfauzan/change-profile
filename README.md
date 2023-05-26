@@ -48,41 +48,10 @@ Once the website is running, follow these steps to change the profile picture:
 3. Drag and resize the selection tool to crop the image as desired.
 4. Click the "Save" button to save the cropped image as your new profile picture.
 
-### Folder Structure
-
-The folder structure of the project is as follows:
-
-```
-change-profile-website/
-  ├── public/
-  │   ├── index.html
-  │   └── ...
-  ├── src/
-  │   ├── components/
-  │   │   ├── Avatar.js
-  │   │   ├── CropDialog.js
-  │   │   ├── ProfileImage.js
-  │   │   └── ...
-  │   ├── App.js
-  │   ├── index.js
-  │   └── ...
-  ├── package.json
-  ├── README.md
-  └── ...
-```
-
-- The `public` folder contains the HTML template and other static assets.
-- The `src` folder contains the main source code of the website.
-- The `components` folder contains reusable components used in the website.
-- The `App.js` file is the entry point of the application.
-- The `index.js` file is responsible for rendering the React app.
-- The `package.json` file contains the project's dependencies and scripts.
-
-Feel free to explore the code and modify it according to your needs.
 
 ### Credits
 
-The Change Profile website is created by [Your Name] and is available under the [MIT License](LICENSE).
+The Change Profile website is created by Mujadid Fauzan Salim Tamin.
 
 If you have any questions or suggestions, please feel free to contact me.
 
